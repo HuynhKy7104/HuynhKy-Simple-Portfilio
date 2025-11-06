@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HyK Simple Portfolio</title>
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="icon" href="./assets/rocket-icon.ico">
+
+    <link rel="stylesheet" href="css/animations.css">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-----------
+        Header
+    ------------>
+    <header>
+        <div class="container header__container">
+            <!-- left column -->
+              <div class="header__column--left">
+                <!-- avatar -->
+                <div class="header__img"></div>
+
+                <div class="header__content--left">
+                    <h2 class="header__title">HuynhKy</h2>
+                    <div class="header__badge_container">
+                        <div class="badge">Lập trình web, mobile app</div>
+                        <div class="badge">Fullstack Developer</div>
+                    </div>
+                    <p>Mong muốn ứng tuyển vị trí <span>Junior Developer</span> trong lĩnh vực phát triển web và mobile app.</p>
+                </div>
+              </div>
+
+
+            <!-- right column -->
+             <div class="header__column--right">
+                <h2 class="header__title">Thông Tin Liên Hệ</h2>
+                <p>
+                    Gửi mail cho mình tại:
+                    <span>huynhbaoky12369@gmail.com</span>
+                </p>
+                <p>
+                    Gọi điện cho mình tại:
+                    <span>0379879929</span>
+                </p>
+             </div>
+
+
+
+        </div>
+    </header>
+
+
+    <!----------------------------------
+        About Me - Giới thiệu bản thân
+    ----------------------------------->
+    <section class="aboutMe__section">
+        <!--Hình động 2 bên-->
+        <img src="./assets/rocket-icon.svg" alt="rocket icon">
+        <img src="./assets/laptop-icon.svg" alt="laptop icon">
+
+        <!--Nội dung chính-->
+        <div class="aboutMe__container">
+            <div class="aboutMe__content_container">
+                <h1 class="section__title">Giới Thiệu Bản Thân</h1>
+
+                <p class="section__description">
+                    Xin chào! Mình là sinh viên năm cuối trường Đại Học An Giang. Mình có niềm đam mê và yêu thích 
+                    công việc lập trình ra các trang web và app mobile có tính ứng dụng cao và đẹp mắt.
+                </p>
+
+                <div class="CTA">
+                    <a href="./assets/CV_Resume.pdf" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        class="primaryButton"
+                        download=""
+                    >Tải CV</a>
+
+                    <a href="#ProjectContainer"
+                        class="outlineButton"
+                    >Xem Dự Án</a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-------------------
+        Skills - Kỹ năng
+    -------------------->
+    <section class="skills__section">
+        <div class="container skills_container">
+            <!-- Header -->
+            <div class="section__header">
+                <h1 class="section__title">Kỹ năng & Chuyên môn</h1>
+
+                <p class="section__description">
+                    Là một nhà phát triển web mới vào nghề, mình có nền tảng vững chất về 
+                    các framework front-end như React và thư viện NextJS, và kinh nghiệm 
+                    làm việc với các công nghề back-end như Node.js và Express. 
+                </p>
+            </div>
+
+
+            <!-- Grid -->
+             <div class="skills__grid_container">
+                <!-- Grid item 1 -->    
+                <div class="skills__grid_item"></div>
+
+
+                <!-- Grid item 2 -->
+                <div class="skills__grid_item">
+                    <div class="skills__grid_item_header">
+                        <div>
+                            <img src="./assets/check-icon.svg" alt="check-icon">
+                            <h2>Công cụ & Công nghệ</h2>
+                        </div>
+
+                        <p>
+                            Thành thạo nhiều công cụ lập trình web hiện đại, có kinh nghiệm xây dựng các ứng dụng
+                            web tương tác, thân thiệt với người dùng và đam mê viết mã sạch, dễ bảo trì. 
+                        </p>
+                    </div>
+
+
+                    <!-- Skill logos-->
+                     <div>
+                        <!--List 1-->
+                        <div class="icons-list-wrapper">
+                            <div class="icon-list">
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/C.svg" alt="C icon">
+                                    <span>C</span>
+                                </div>
+
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/github.svg" alt="Github icon">
+                                    <span>Github</span>
+                                </div>
+
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/css.svg" alt="CSS icon">
+                                    <span>CSS</span>
+                                </div>
+
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/java.svg" alt="Java icon">
+                                    <span>Java</span>
+                                </div>
+
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/html.svg" alt="HTML icon">
+                                    <span>HTML</span>
+                                </div>
+                                
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/node-js.svg" alt="NodeJS icon">
+                                    <span>NodeJS</span>
+                                </div>
+
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/JS.svg" alt="JS icon">
+                                    <span>JS</span>
+                                </div>
+
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/react.svg" alt="React icon">
+                                    <span>React</span>
+                                </div>
+
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/postgresql.svg" alt="PostgreSQL icon">
+                                    <span>PostgreSQL</span>
+                                </div>
+
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/nextjs.svg" alt="NextJS icon">
+                                    <span>NextJS</span>
+                                </div>
+                            </div>
+
+                            <div class="icon-list">
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/C.svg" alt="C icon">
+                                    <span>C</span>
+                                </div>
+
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/github.svg" alt="Github icon">
+                                    <span>Github</span>
+                                </div>
+
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/css.svg" alt="CSS icon">
+                                    <span>CSS</span>
+                                </div>
+
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/java.svg" alt="Java icon">
+                                    <span>Java</span>
+                                </div>
+
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/html.svg" alt="HTML icon">
+                                    <span>HTML</span>
+                                </div>
+                                
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/node-js.svg" alt="NodeJS icon">
+                                    <span>NodeJS</span>
+                                </div>
+
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/JS.svg" alt="JS icon">
+                                    <span>JS</span>
+                                </div>
+
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/react.svg" alt="React icon">
+                                    <span>React</span>
+                                </div>
+
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/postgresql.svg" alt="PostgreSQL icon">
+                                    <span>PostgreSQL</span>
+                                </div>
+
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/nextjs.svg" alt="NextJS icon">
+                                    <span>NextJS</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!--List 2-->
+                        <div class="icons-list-wrapper">
+                            <div class="icon-list">
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/C.svg" alt="C icon">
+                                    <span>C</span>
+                                </div>
+
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/github.svg" alt="Github icon">
+                                    <span>Github</span>
+                                </div>
+
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/css.svg" alt="CSS icon">
+                                    <span>CSS</span>
+                                </div>
+
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/java.svg" alt="Java icon">
+                                    <span>Java</span>
+                                </div>
+
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/html.svg" alt="HTML icon">
+                                    <span>HTML</span>
+                                </div>
+                                
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/node-js.svg" alt="NodeJS icon">
+                                    <span>NodeJS</span>
+                                </div>
+
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/JS.svg" alt="JS icon">
+                                    <span>JS</span>
+                                </div>
+
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/react.svg" alt="React icon">
+                                    <span>React</span>
+                                </div>
+
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/postgresql.svg" alt="PostgreSQL icon">
+                                    <span>PostgreSQL</span>
+                                </div>
+
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/nextjs.svg" alt="NextJS icon">
+                                    <span>NextJS</span>
+                                </div>
+                            </div>
+
+                            <div class="icon-list">
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/C.svg" alt="C icon">
+                                    <span>C</span>
+                                </div>
+
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/github.svg" alt="Github icon">
+                                    <span>Github</span>
+                                </div>
+
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/css.svg" alt="CSS icon">
+                                    <span>CSS</span>
+                                </div>
+
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/java.svg" alt="Java icon">
+                                    <span>Java</span>
+                                </div>
+
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/html.svg" alt="HTML icon">
+                                    <span>HTML</span>
+                                </div>
+                                
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/node-js.svg" alt="NodeJS icon">
+                                    <span>NodeJS</span>
+                                </div>
+
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/JS.svg" alt="JS icon">
+                                    <span>JS</span>
+                                </div>
+
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/react.svg" alt="React icon">
+                                    <span>React</span>
+                                </div>
+
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/postgresql.svg" alt="PostgreSQL icon">
+                                    <span>PostgreSQL</span>
+                                </div>
+
+                                <div class="icon-bageds">
+                                    <img src="./assets/icons/nextjs.svg" alt="NextJS icon">
+                                    <span>NextJS</span>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+
+
+                <!-- Grid item 3 -->
+                <div class="skills__grid_item">
+                    <div class="skills__grid_item_header">
+                        <div>
+                            <img src="./assets/check-icon.svg" alt="check-icon">
+                            <h2>Kỹ Năng Mềm</h2>
+                        </div>
+                        <div>
+                            <p>
+                                Kỹ năng giao tiếp, cộng tác, và giải quyết vấn đề xuất sắc, với thái độ chủ động và ham học hỏi,
+                                dễ thích nghi với môi trường làm việc nhóm năng động.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="softSkills__container">
+                        <div class="softSkills_badge">
+                            <p>Giao tiếp chuyên nghiệp</p>
+                        </div>
+                        <div class="softSkills_badge">
+                            <p>Quản lý nội dung hiệu quả</p>
+                        </div>
+                        <div class="softSkills_badge">
+                            <p>Đáng tin cậy</p>
+                        </div>
+                        <div class="softSkills_badge">
+                            <p>Ham học hỏi</p>
+                        </div>
+
+                        <div class="softSkills__book_icons">
+                            <img src="./assets/closed-book.svg" alt="closed book icon">
+                            <img src="./assets/closed-book.svg" alt="closed book icon">
+                            <img src="./assets/closed-book.svg" alt="closed book icon">
+                            <img src="./assets/closed-book.svg" alt="closed book icon">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Grid item 4 -->
+                <div class="skills__grid_item"></div>
+             </div>
+        </div>
+    </section>
+
+
+    <!-------------------
+        Skills - Kỹ năng
+    -------------------->
+    <section class="projects__section">
+        <div class="container projects_container">
+            <!-- Header -->
+            <div class="section__header">
+                <h1 class="section__title">Đồ Án Thực Chiến</h1>
+
+                <p class="section__description">
+                    Bộ sưu tập dự án này tại trường giúp mình củng cố và hoàn thiện 
+                    những kỹ thuật cũng như khả năng giải quyết vấn đề một cách đơn giản và sáng tạo.
+                </p>
+
+
+            </div>
+        </div>
+    </section>
+    
+
+</body>
+</html>
