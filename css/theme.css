@@ -138,7 +138,7 @@ table {
         COLORS 
     =================*/
 
- /* Primary colors */
+ /* Primary colors 
  --p-20: hsl(213, 100%, 98%);
  --p-50: hsl(215, 100%, 97%);
  --p-100: hsl(215, 100%, 94%);
@@ -158,14 +158,14 @@ table {
  --p-950: hsl(233, 45%, 20%);
  --p-950-code: 233, 45%, 20%;
 
- /* Neutrals */
+ /* Neutrals 
  --n-50: hsl(210, 14%, 97%);
  --n-500: hsl(215, 16%, 47%);
  --n-600: hsl(215, 16%, 35%);
  --foreground-color: hsl(0, 0%, 100%); /* background color */
 
 
- /* Gradients */
+ /* Gradients 
  --main-gradient-color: linear-gradient(
   to right,
   var(--p-450),
@@ -175,6 +175,55 @@ table {
   var(--foreground-color) 10%,
   var(--p-100)
  );
+
+
+/*===============
+      COLORS (Cosmic Theme - V2 Fixed)
+   =================*/
+
+/* Màu nền Vũ trụ (Tối nhất) */
+--background-color: hsl(265, 70%, 12%);
+--background-color-code: 265, 70%, 12%;
+
+/* Primary colors (Dải màu Tím/Violet) */
+--p-20: hsl(270, 100%, 98%);
+--p-50: hsl(265, 100%, 97%);
+--p-100: hsl(262, 95%, 94%);
+--p-200: hsl(260, 90%, 88%);
+--p-300: hsl(258, 85%, 80%);
+--p-400: hsl(255, 80%, 72%);
+--p-450: hsl(300, 85%, 65%);
+--p-500: hsl(255, 75%, 65%);
+--p-500-code: 255, 75%, 65%;
+--p-600: hsl(258, 65%, 55%);
+--p-600-code: 258, 65%, 55%;
+--p-700: hsl(260, 55%, 45%);
+--p-700-code: 260, 55%, 45%;
+--p-800: hsl(262, 60%, 35%);
+
+/* === THAY ĐỔI Ở ĐÂY === */
+/* (Tối hơn p-800, nhưng sáng hơn màu nền body) */
+--p-900: hsl(264, 65%, 25%); 
+--p-900-code: 264, 65%, 25%;
+--p-950: hsl(265, 65%, 18%); /* Đã được làm sáng hơn nền */
+--p-950-code: 265, 65%, 18%;
+
+/* Neutrals (Màu trung tính/chữ - Dành cho nền tối) */
+--n-50: hsl(260, 30%, 96%); 
+--n-500: hsl(260, 15%, 85%); 
+--n-600: hsl(260, 10%, 70%); 
+--foreground-color: hsl(0, 0%, 100%); /* Màu chữ chính (Trắng) */
+
+/* Gradients (Dải màu) */
+--main-gradient-color: linear-gradient(
+  to right,
+  var(--p-450), 
+  var(--p-500)  
+);
+--gradient-color: linear-gradient(
+  var(--foreground-color) 10%, 
+  var(--p-300) /* Chuyển sang màu p-900 (tối, nhưng sáng hơn nền) */
+);
 
 
  /*================================= 

@@ -6,14 +6,14 @@ header {
     display: flex;
     gap: 40px;
 
-    & p {
+        & p {
         color: var(--n-600);
-    }
+        }
 
-    & span {
+        & span {
         color: var(--p-950);
         font-weight: 600;
-    }
+        }
 }
 
 .header__title {
@@ -28,19 +28,19 @@ header {
     gap: 24px;
     align-items: center;
 
-    & .header__content--left {
+        & .header__content--left {
         display: flex;
         flex-direction: column;
         gap: 8px;
-    }
+        }
 
-    & .header__badge_container {
+        & .header__badge_container {
         display: flex;
         gap: 6px;
         text-align: center;
-    }
+        }
 
-    & .badge {
+        & .badge {
         font-size: var(--caption-font-size);
         line-height: var(--caption-line-height);
         color: var(--p-950);
@@ -51,8 +51,9 @@ header {
         display: -webkit-box;
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 1;
+        line-clamp: 1;
         overflow: hidden;
-    }
+        }
 }
 
 .header__column--right {

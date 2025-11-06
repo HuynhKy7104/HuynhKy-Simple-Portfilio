@@ -36,6 +36,11 @@
         max-width: 1024px;
     }
 
+    section {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
     /** Header **/
     .header__container {
         flex-direction: column;
@@ -139,5 +144,10 @@
             grid-column: span 1 !important;
             grid-row: span 1 !important;
         }
+    }
+
+    /** Skills **/
+    footer {
+        padding: 0;
     }
 }
