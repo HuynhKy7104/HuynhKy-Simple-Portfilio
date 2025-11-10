@@ -210,8 +210,8 @@ table {
 
 /* Neutrals (Màu trung tính/chữ - Dành cho nền tối) */
 --n-50: hsl(260, 30%, 96%); 
---n-500: hsl(260, 15%, 85%); 
---n-600: hsl(260, 10%, 70%); 
+--n-500: hsl(215, 16%, 47%); 
+--n-600: hsl(215, 16%, 35%); 
 --foreground-color: hsl(0, 0%, 100%); /* Màu chữ chính (Trắng) */
 
 /* Gradients (Dải màu) */
